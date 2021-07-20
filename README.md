@@ -1,9 +1,12 @@
-# Homework 1, Code Refactor
+# Code Refactor
+
+## Link To Project
 
 Website: https://esper06.github.io/Homework1/
 
-Repository: https://github.com/Esper06/Homework1
+## Screenshot Of Project
 
+<img src="./Assets/images/Screenshot.jpeg" alt="An image of the completed product">
 
 ## Description
 
