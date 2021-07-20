@@ -1,5 +1,10 @@
 # Homework 1, Code Refactor
 
+Website: https://esper06.github.io/Homework1/
+
+Repository: https://github.com/Esper06/Homework1
+
+
 ## Description
 
 My motivation for this project was to edit the code of an existing website. The website did function as it was, however there were changes and additions that could've been made to better interact with serach engines. I've also made it so that changes can be made easier in the future via documentation.

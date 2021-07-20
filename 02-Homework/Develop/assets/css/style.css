@@ -1,13 +1,17 @@
+
+/* General styling to position elements */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* changes the background colour of the whole website */
 body {
     background-color: #d9dcd6;
 }
 
+/* Adds padding, changes font, and creates a banner of sorts at the top with the background colour change */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +19,18 @@ body {
     color: #ffffff;
 }
 
+/* Exclusively changes the font size and display of the h1 element that is a child of header */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Changes the colour of the text inside the span element that is inside the h1 element in header */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Styles the nav elements, positions them, and changes the font */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,20 +39,24 @@ body {
     font-size: 20px;
 }
 
+/* Removes the bullet points from the list */
 .header nav ul {
     list-style-type: none;
 }
 
+/* Changes the display of the list items so that they all line up horizontally. Also positions them */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* All links are styles to have a certain text colour and the underline is removed with text-decoration */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* All p element font size is styled */
 p {
     font-size: 16px;
 }
@@ -60,16 +71,19 @@ p {
     background-position: center;
 }
 
+/* A class that makes selected elements float to the left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* A class that makes selected elements float to the right. Without it certain elements are lost behind others */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Makes it so that the main cards do not take up the entire width and allow room for the small card on the side */
 .content {
     width: 75%;
     display: inline-block;
@@ -77,7 +91,7 @@ p {
 }
 
 
-/* All classes labelled "benefits" is for the content in the blue bar on the right */
+/* All classes labelled "benefits" is for the content in the blue bar on the right. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -89,55 +103,27 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* Some positioning to space the elements apart more, also colours the text */
+.benefitImages {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* Centres the main text in the benefit section, also adds some space beneath it */
+.benefitImages h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/* Sets display to be block so that nothing rides up around it. The margin is styled so that it is neat in the center. Finally a max width is added to make the images uniform */
+.benefitImages img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+/* All styles labelled mainCards are for the large blue section on the left */
+.mainCards {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -146,51 +132,18 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+/* Sets a max height on the images to keep them uniform */
+.mainCards img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+/* Sets the margin bottom to space text away from the heading. Also styles the font size */
+.mainCards h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Styles the footer at the bottom. Adds padding to space elements away from it, changes the font, and aligns the text in the center */
 .footer {
     padding: 30px;
     clear: both;
@@ -198,6 +151,7 @@ p {
     text-align: center;
 }
 
+/* Styles the footer font size */
 .footer h2 {
     font-size: 20px;
 }
